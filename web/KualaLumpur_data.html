@@ -1,0 +1,194 @@
+
+  <html>
+    <head><title>HTML Pandas Dataframe with CSS</title></head>
+    <link rel="stylesheet" type="text/css" href="df_style.css"/>
+    <body>
+      <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>date_announced</th>
+      <th>cluster</th>
+      <th>summary_en</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-10-08</td>
+      <td>KLUSTER JALAN MAKTAB SUNGAI BESI</td>
+      <td>This cluster involves students at an educational centre located at Jalan Sungai Besi, Cheras. The index case for this cluster is Case No. 2318443, a male Malaysian citizen aged 17 years who reported positive COVID-19 on 8th October 2021 due to symptomatic individual screening. The case began to develop symptoms on 1st October 2021.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-10-12</td>
+      <td>KLUSTER TAMAN DANAU KOTA</td>
+      <td>This cluster involves students and staff of an educational centre located in Taman Danau Kota, Titiwangsa. The index case for this cluster is Case No. 2318536, a female Malaysian citizen aged 28 years who reported positive for COVID-19 on 8th October 2021 due to symptomatic individual screening. The case began to develop symptoms on 7th October 2021.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-10-20</td>
+      <td>KLUSTER JALAN SETIAWANGSA SEPULUH</td>
+      <td>This cluster involves staff and students of an educational institution near Jalan Setiawangsa 10, Taman Setiawangsa, Titiwangsa. The index case for this cluster is Case No. 2373353, a female Malaysian citizen aged 29 years who reported positive COVID-19 on 15th October 2021 due to symptomatic individual screening. The case began to show symptoms on 11th October 2021.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021-10-22</td>
+      <td>KLUSTER JALAN DATARAN WANGSA</td>
+      <td>This cluster involves students and staff at an educational centre located at Jalan Dataran Wangsa 1, Titiwangsa. The index case for this cluster is Case No. 2381439, a girl, Malaysian citizen, aged four years who reported positive for COVID-19 on 16th October 2021 due to symptomatic individual screening. The case began to show symptoms on 13th October 2021.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021-10-22</td>
+      <td>KLUSTER JALAN STESEN SENTRAL TIGA</td>
+      <td>This cluster involves the employees of a business premise. The name of the cluster indicates the locality near the premises, namely Jalan Stesen Sentral 3. The index case for this cluster is Case No. 2410585, a female, 48 years old, Malaysian citizen who reported positive for COVID-19 on 21st October 2021 due to symptomatic individual screening.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021-10-27</td>
+      <td>KLUSTER JALAN DANAU SAUJANA</td>
+      <td>This cluster involves students and staff of an educational centre located in Taman Setapak Indah, Titiwangsa. The index case for this cluster is Case No. 2423164, a Malaysian citizen girl aged three years who reported positive for COVID-19 on 23rd October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 20th October 2021. The name of the cluster refers to the locality of the index case living in Jalan Danau Saujana 2, Titiwangsa.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2021-10-27</td>
+      <td>KLUSTER PERSIARAN BUKIT KIARA</td>
+      <td>This cluster identification resulted from targeted screening at the workplace involving a public administration centre staff located at Jalan Bukit Kiara, Taman Bukit Damansara, Kepong.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2021-10-28</td>
+      <td>KLUSTER JALAN BESI</td>
+      <td>This cluster involves employees of a service company located at Jalan Sungai Besi, Batu 3, Lembah Pantai. The index case for this cluster is Case No. 2445526, a male Malaysian citizen aged 36 years who reported positive for COVID-19 on 27th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 24th October 2021.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2021-11-01</td>
+      <td>KLUSTER TAPAK BINA LEBUHRAYA SETIAWANGSA 2</td>
+      <td>This cluster is the second recurring cluster. The cluster identification resulted from targeted screening at the workplace involving workers of a construction site located on the Setiawangsa - Pantai Highway, Setiawangsa, Titiwangsa.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2021-11-02</td>
+      <td>KLUSTER JALAN TUANKU DUA</td>
+      <td>This cluster involves workers of a factory located at Jalan Tuanku 2, Taman Salak Selatan, Lembah Pantai. The index case for this cluster is Case No. 2478677; a male Nepal citizen aged 25 years reported positive for COVID-19 on 2nd November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 27th October 2021.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2021-11-04</td>
+      <td>KLUSTER PERSIARAN ALAM 2</td>
+      <td>This cluster is the second recurring cluster. Identification of cluster resulted from targeted screening at the workplace involving workers of a factory located at Jalan Persiaran Alam Damai, Cheras.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2021-11-05</td>
+      <td>KLUSTER JALAN YAHYA 4</td>
+      <td>This cluster is a recurring cluster involving the staff of an educational institution located at Jalan Sultan Yahya Petra, Titiwangsa. The index case for this cluster is Case No. 2484308, a female Malaysian citizen aged 26 years who reported positive COVID-19 on 3rd November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 30th October 2021</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2021-11-08</td>
+      <td>KLUSTER LINGKARAN BUDI</td>
+      <td>This cluster involves students of an educational institution located near Lingkaran Budi, Lembah Pantai. The index case for this cluster is Case No. 2508170, a male Malaysian citizen aged 21 years who reported positive for COVID-19 on 8th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 1st November 2021.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2021-11-09</td>
+      <td>KLUSTER JALAN LAZAT SATU</td>
+      <td>The cluster involves employees of a restaurant located at Jalan Lazat 1, Taman Gembira, Lembah Pantai. The index case for this cluster is Case No. 2499806, a male Malaysian citizen aged 58 years who reported positive for COVID-19 on 6th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 1st November 2021.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2021-11-10</td>
+      <td>KLUSTER KANDI SUNGAI BESI 2</td>
+      <td>This cluster is the second recurring cluster involving students of an educational institution located in Sungai Besi, Cheras. The index case for this cluster is Case No. 2489699, a male Malaysian citizen aged 18 years who reported positive for COVID-19 on 4th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 31st October 2021.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2021-11-11</td>
+      <td>KLUSTER JALAN SETIAWANGSA UTAMA</td>
+      <td>This cluster involves students of an education center located at Jalan Setiawangsa Utama 1, Taman Setiawangsa, Titiwangsa. The index case for this cluster is Case No. 2513453, a Malaysian citizen aged three years who reported positive for COVID-19 on 9th November 2021 due to close contact screening.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2021-11-13</td>
+      <td>KLUSTER JALAN TIGA DANAU KOTA</td>
+      <td>This cluster identification resulted from targeted screening at the workplace involving employees in a company located at Jalan 3/23A, Taman Danau Kota, Titiwangsa.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2021-11-16</td>
+      <td>KLUSTER JALAN LENGKOK ABDULLAH</td>
+      <td>The index case for this cluster is Case No. 2538418, a female Malaysian citizen aged 52 years who reported positive COVID-19 on 13th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 6th November 2021. Cluster's name refers to the locality where cases spread occurred, namely in Jalan Lengkok Abdullah, Bangsar, Lembah Pantai, Kuala Lumpur.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2021-11-23</td>
+      <td>KLUSTER JALAN KEPONG EMPAT</td>
+      <td>This cluster was resulted from targeted screening of factory workers located at Jalan 4/32A, Jalan Kepong, Kepong.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2021-11-23</td>
+      <td>KLUSTER JALAN LADING</td>
+      <td>This cluster was reported involving the public institution's staff located at Jalan Laksamana, Kementah. The index case of this cluster was Case No. 2538517, 21 years old Malaysian gentleman, who reported COVID-19 positive on 13th November 2021 during symptomatic screening. The case started symptomatic on 11th November 2021. The cluster was named as the location of index case adrresses located nearby Jalan Lading, Kementah, Titiwangsa.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2021-11-24</td>
+      <td>KLUSTER TUAH SUNGAI BESI</td>
+      <td>This cluster involves students of an educational center located at Sungai Besi Premier Camp, Kuala Lumpur. The index case for this cluster is Case No. 2599892, a 21-year-old Malaysian male who reported positive for COVID-19 on 24 November 2021 as a result of symptomatic screening. The case has been symptomatic since November 19, 2021.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2021-11-25</td>
+      <td>KLUSTER LORONG AYER LOMBONG</td>
+      <td>This cluster was reported involving residents of a care centre located at Lorong Ayer Lombong, Air Panas, Titiwangsa. The index case for this cluster is Case No. 2594248, 58 years old Malaysian male, who reported COVID-19 positive on 23rd November 2021 during symptomatic screening. The case became symptomatic on 15th November 2021.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2021-11-26</td>
+      <td>KLUSTER JALAN WANGSA DELIMA LIMA</td>
+      <td>This cluster involved an education centre located at Jalan Wangsa Delima 5, Pusat Bandar Wangsa Maju, Kuala Lumpur. The case index in this cluster was Case No. 2605957, 19 years old Malaysian woman who reported COVID-19 positive on 25 November 2021 during symptomatic screening. The case became symptomatic on 21 November 2021.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2021-11-26</td>
+      <td>KLUSTER JALAN BATU KENTONMEN</td>
+      <td>This cluster resulted from a targeted staff screening at a public institution located at Kem Batu Kentonmen, Kuala Lumpur.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2021-11-30</td>
+      <td>KLUSTER DATARAN SHAMELIN</td>
+      <td>This cluster involves the staff employees of a service company located in Dataran Shamelin, Taman Shamelin Perkasa, Cheras. The index case for this cluster is a 34 years old Malaysian male, who reported positive for COVID-19 on 23rd November 2021 as a result of symptomatic individual screening. Case became symptomatic on 19th November 2021.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2021-11-30</td>
+      <td>KLUSTER JALAN TELAWI SATU</td>
+      <td>This cluster involves staff and students of an education centre located at Jalan Telawi 1, Bangsar, Lembah Pantai. The index case for this cluster was a Malaysian female aged 59 years old, who reported positive for COVID-19 on 29th November 2021 as a result of symptomatic individual screening. Case became symptomatic on 25th November 2021.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2021-12-05</td>
+      <td>KLUSTER JALAN CHERAS BATU EMPAT 2</td>
+      <td>This cluster is the second recurring cluster involving inmates and caregivers at a care center located at Jalan Cheras Batu Empat, Cheras. The index case for this cluster is a boy, Malaysian citizen aged 2 years who reported positive for COVID-19 on 3 December 2021 as a result of symptomatic screening. The case became symptomatic on November 28, 2021.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2021-12-09</td>
+      <td>KLUSTER JALAN HELANG BELALANG 2</td>
+      <td>This cluster is a recurring cluster for the second time identified as a result of targeted screening involving workers in a factory located nearby Jalan Helang Bukit, Kepong.</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2021-12-11</td>
+      <td>KLUSTER JALAN RAHMAT</td>
+      <td>This cluster involves staff at a public administration center located at Jalan Rahmat, Kepong. The index case for this cluster was a man, Malaysian citizen, aged 42 years, who was reported positive for COVID-19 on 1st December 2021 as a result of symptomatic individual screening. The case became symptomatic 24th November 2021.</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+  </html>.
+  

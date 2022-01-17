@@ -1,0 +1,188 @@
+
+  <html>
+    <head><title>HTML Pandas Dataframe with CSS</title></head>
+    <link rel="stylesheet" type="text/css" href="df_style.css"/>
+    <body>
+      <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>date_announced</th>
+      <th>cluster</th>
+      <th>summary_en</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-09-26</td>
+      <td>KLUSTER ULU RENGAT</td>
+      <td>This cluster involves an Orang Asli community in Kampung Jarau Baru, Gerik, Hulu Perak. The name of this cluster refers to the locality of the village located at Gunung Ulu Rengat. The index case for this cluster was a 22-year-old female Malaysian citizen who was reported positive for COVID-19 on 26th September 2021 due to symptomatic individual screening.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-10-16</td>
+      <td>KLUSTER BUKIT SAPI</td>
+      <td>The index case for this cluster is Case No. 2311546, a male Malaysian citizen aged 46 years who reported positive for COVID-19 on 7th October 2021 due to symptomatic screening. The case began to show symptoms on 3rd October 2021. The name of the cluster refers to the locality of transmission reported occurring in Kampung Bukit Sapi, Lenggong, Hulu Perak.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-10-17</td>
+      <td>KLUSTER JALAN PC 10</td>
+      <td>This cluster involves workers in a factory located at Jalan PC 10, Proton City, Tanjung Malim, Muallim. The index case for this cluster is Case No. 2266722, a male Malaysian citizen aged 27 years who reported positive for COVID-19 on 2nd October 2021 due to symptomatic individual screening. The case began to show symptoms on 29th September 2021.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021-10-18</td>
+      <td>KLUSTER BIDOR STESEN</td>
+      <td>The index case for this cluster is Case No. 2266265, a Malaysian citizen aged 37 years who reported positive for COVID-19 on 2nd October 2021 due to symptomatic individual screening. The case began to show symptoms on 28th September 2021. The name of the cluster refers to the locality of transmission of cases that occurred in Kampung Baru, Bidor Stesen, Batang Padang.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021-10-18</td>
+      <td>KLUSTER GUNUNG BESOUT DUA</td>
+      <td>The index case for this cluster is Case No. 2218716, a male Malaysian citizen aged 41 years who reported positive for COVID-19 on 28 September 2021 due to pre-employment screening. The name of the cluster refers to the locality of transmission of cases reported to occur in Felda Gunung Besout 2, Sungkai, Batang Padang.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021-10-19</td>
+      <td>KLUSTER JALAN WOO SAIK HONG</td>
+      <td>The cluster involves hawkers in a market located at Jalan Woo Saik Hong, Teluk Intan, Hilir Perak. The index case for this cluster is Case No. 2338060, a male Malaysian citizen aged 48 years who reported positive COVID-19 on 10th October 2021 due to symptomatic individual screening. The case began to show symptoms on 7th October 2021.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2021-10-26</td>
+      <td>KLUSTER INDUSTRI JALAN TEPI SUNGAI</td>
+      <td>This cluster involves workers of a factory located at Jalan Tepi Sungai, Hutan Melintang, Hilir Perak. The index case for this cluster is Case No. 2389214, a male Malaysian citizen aged 47 years who reported positive for COVID-19 on 17th October 2021 due to symptomatic individual screening. The case began to show symptoms on 15th October 2021.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2021-10-27</td>
+      <td>KLUSTER JALAN BESAR TANJUNG</td>
+      <td>This cluster involves patients and staff of a medical centre located at Jalan Besar, Tanjung Rambutan, Kinta. The index case for this cluster is Case No. 2321038, a female Malaysian citizen aged 32 years who reported positive COVID-19 on 8th October 2021 due to close contact screening.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2021-10-30</td>
+      <td>KLUSTER JALAN PUNCAK ISKANDAR</td>
+      <td>This cluster involves the residents and staff of a care centre located at Jalan Puncak Iskandar, Central Perak. The index case for this cluster is Case No. 2465335, a male Malaysian citizen aged 21 years who reported positive for COVID-19 on 30th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 27th October 2021.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2021-11-03</td>
+      <td>KLUSTER PARIT 4A SUNGAI MANIK</td>
+      <td>The index case for this cluster is Case No. 2440966, a male Malaysian citizen aged 71 years who reported positive COVID-19 on 26th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 20th October 2021. Cluster's name refers to the locality where the spread of cases occurred, namely in Parit 4A, Sungai Manik, Teluk Intan, Hilir Perak.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2021-11-09</td>
+      <td>KLUSTER JALAN INDUSTRI SATU JELAPANG</td>
+      <td>This cluster identification resulted from targeted screening at the workplace involving workers of a factory located at Jalan Industri 1, Jelapang II Free Industrial Zone, Ipoh, Kinta.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2021-11-12</td>
+      <td>KLUSTER INDUSTRI TINGKAT KILANG</td>
+      <td>This cluster identification resulted from targeted screening at the workplace involving workers in a factory located at the Factory Floor, Jelapang Manufacturing Area, Ipoh, Kinta.</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2021-11-19</td>
+      <td>KLUSTER JALAN PAHANG TAPAH</td>
+      <td>This cluster involves staff at a public institution located at Jalan Pahang, Tapah. The index case for this cluster is Case No. 2459566, a male Malaysian citizen aged 27 years who reported positive for COVID-19 on 29th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 23rd October 2021.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2021-11-23</td>
+      <td>KLUSTER PERSIARAN INDUSTRI KANTHAN LIMA</td>
+      <td>This cluster was resulted from targeted screening of factory workers located at Pesiaran Perindustrian Kanthan 5, Kanthan Industrial Estate, Chemor, Kinta.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2021-11-27</td>
+      <td>KLUSTER LORONG TIGA AWAN MUHIBAH</td>
+      <td>This cluster involves staff and students at an education centre located at Lorong 3, Taman Aman Muhibbah, Sitiawan, Manjung. The index case for this cluster is Case No. 2568092, a 8-month-old Malaysian female who reported positive for COVID-19 on 18th November 2021 as a result of symptomatic individual screening. The case became symptomatic on 15th November 2021.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2021-11-27</td>
+      <td>KLUSTER BATU SEMBILAN TRONG</td>
+      <td>This cluster was reported involving factory workers located at Sungai Limau Estate Batu 9, Trong, Larut Matang. The case index in this cluster was Case No. 2601715, 26 years old Myanmar citizen male, who reported COVID-19 positive on 24th November 2021 during symptomatic screening. The case became symptomatic on 21st November 2021.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2021-11-29</td>
+      <td>KLUSTER JALAN KUALA KANGSAR GERIK</td>
+      <td>This cluster involves students of an educational center located at Jalan Kuala Kangsar-Gerik, Kuala Kangsar. The index case for this cluster was a 16-year-old man, a Malaysian citizen who was reported positive for COVID-19 on 29 November 2021 as a result of symptomatic individual screening. The case became symptomatic  on November 24, 2021.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2021-12-02</td>
+      <td>KLUSTER BATU 20 SELEKOH</td>
+      <td>This cluster involves students at an educational center located at Batu 20, Selekoh, Hilir Perak. The index case for this cluster is a male, Malaysian aged 19 years old who reported positive for COVID-19 on 30th November 2021 as a result of symptomatic individual screening. The case became symptomatic on 26th November 2021.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2021-12-06</td>
+      <td>KLUSTER JALAN SUNGKAI</td>
+      <td>This cluster involves students at an education center located at Jalan Sungkai-Kampung Baharu Pekan Pasir, Sungkai, Batang Padang. The index case for this cluster is a male, 16-year-old Malaysian citizen who reported positive for COVID-19 on 3rd December 2021 as a result of symptomatic individual screening. The case became symptomatic on 24th November 2021.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2021-12-09</td>
+      <td>KLUSTER JALAN SULTAN YUSOF</td>
+      <td>This cluster involves staff at a public institution located at Jalan Sultan Yusof, Gerik, Hulu Perak. The index case for this cluster is 25 years old Malaysian male who reported positive for COVID-19 on 8th December 2021 as a result of symptomatic individual screening. The case became symptomatic on 26th November 2021.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2021-12-12</td>
+      <td>KLUSTER KAMPUNG AYER HITAM</td>
+      <td>The index case for this cluster was a th53 years old, a Malaysian female who was reported positive for COVID-19 on 10 December 2021 as a result of symptomatic individual screening. Cases began to appear on 1st December 2021. The name of this cluster indicates the locality where the spread of cases was reported, namely in Kampung Ayer Hitam, Hilir Perak.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2021-12-12</td>
+      <td>KLUSTER JALAN PASAR ANSON</td>
+      <td>This cluster was identified as a result of targeted screening involving residents at a care center located at Jalan Pasar, Hilir Perak.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2021-12-17</td>
+      <td>KLUSTER JALAN IPOH CHEMOR</td>
+      <td>This cluster involves a factory workers located at Jalan Ipoh/Chemor, Kinta. The index case for this cluster was 38 years old male, a Malaysian citizen who was reported positive for COVID-19 on 23rd November 2021 as a result of symptomatic individual screening. Case became symptomatic on 21st November 2021.</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2021-12-18</td>
+      <td>KLUSTER LENGKOK BATU BUNGKAL</td>
+      <td>This cluster involves residents of a care center located in Lengkok Batu Bungkal, Perumahan Jalan Kampar, Kinta. The index case for this cluster was a 75-year-old male, a Malaysian citizen who was reported positive for COVID-19 on 17th December 2021 as a result of symptomatic individual screening. The case became symptomatic 12th December 2021.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2021-12-24</td>
+      <td>KLUSTER BESOUT SUNGKAI</td>
+      <td>The index case for this cluster is a 70 years old Malaysian male who was reported positive for COVID-19 on 30th November 2021 as a result of symptomatic individual screening. The case became symptomatic on 26th November 2021. The name of this cluster refers to the locality where the spread of cases was reported to occur, namely at Felda Gunung Besout, Sungkai, Batang Padang.</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2021-12-25</td>
+      <td>KLUSTER JALAN BESAR TANJUNG 2</td>
+      <td>This cluster is the second recurring cluster and involves patients and staff of a medical centre located at Jalan Besar, Tanjung Rambutan, Kinta. The index case for this cluster is a 69 years old Malaysian female who was reported positive for COVID-19 on 22nd Disember 2021 as a result of symptomatic individual screening. The case became symptomatic on 29th November 2021.</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2021-12-27</td>
+      <td>KLUSTER KUALA BIKAM</td>
+      <td>The index case for this cluster is a 37 years old Malaysian woman who was reported positive for COVID-19 on 1st December 2021 as a result of close contact screening. Case became symptomatic on 26th November 2021. The name of this cluster refers to the locality where the spread of cases were reported to occur, namely in Kuala Bikam, Batang Padang.</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2022-01-04</td>
+      <td>KLUSTER PARIT CHE MANJA</td>
+      <td>This cluster involves the staff and students of an educational center located in Parit Che Manja, Sungai Tiang Darat, Hilir Perak. The index case for this cluster was a man, Malaysian citizen, aged 56 years, who was reported positive for COVID-19 on 2 January 2022 as a result of symptomatic individual screening. The case began symptomatic on 23 December 2021.</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+  </html>.
+  

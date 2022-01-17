@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/Malaysia.js"></script>
+
+</head>
+<body>
+    <div id="5e0977fb223d4d31ae2ef26e71fe5c40" class="chart-container" style="width:1000px; height:500px;"></div>
+    <script>
+        var chart_5e0977fb223d4d31ae2ef26e71fe5c40 = echarts.init(
+            document.getElementById('5e0977fb223d4d31ae2ef26e71fe5c40'), 'light', {renderer: 'canvas'});
+        var option_5e0977fb223d4d31ae2ef26e71fe5c40 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "map",
+            "name": "Cumulative number of confirmed cases",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u9a6c\u6765\u897f\u4e9a",
+            "data": [
+                {
+                    "name": "Johor",
+                    "value": 4
+                },
+                {
+                    "name": "Kedah",
+                    "value": 0
+                },
+                {
+                    "name": "Kelantan",
+                    "value": 0
+                },
+                {
+                    "name": "Melaka",
+                    "value": 0
+                },
+                {
+                    "name": "Negeri Sembilan",
+                    "value": 0
+                },
+                {
+                    "name": "Pahang",
+                    "value": 0
+                },
+                {
+                    "name": "Perak",
+                    "value": 0
+                },
+                {
+                    "name": "Perlis",
+                    "value": 0
+                },
+                {
+                    "name": "Pulau Pinang",
+                    "value": 0
+                },
+                {
+                    "name": "Sabah",
+                    "value": 0
+                },
+                {
+                    "name": "Sarawak",
+                    "value": 0
+                },
+                {
+                    "name": "Selangor",
+                    "value": 0
+                },
+                {
+                    "name": "Terengganu",
+                    "value": 0
+                },
+                {
+                    "name": "W.P. Kuala Lumpur",
+                    "value": 0
+                },
+                {
+                    "name": "W.P. Labuan",
+                    "value": 0
+                },
+                {
+                    "name": "W.P. Putrajaya",
+                    "value": 0
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1.2,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Cumulative number of confirmed cases"
+            ],
+            "selected": {
+                "Cumulative number of confirmed cases": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "New Coronavirus's national epidemic map",
+            "subtext": "UpDate Time\uff1a2022-01-17 15:39:07",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 1000,
+        "inRange": {
+            "color": [
+                "#FFFFE0",
+                "#FFA07A",
+                "#CD5C5C",
+                "#8B0000"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+		chart_5e0977fb223d4d31ae2ef26e71fe5c40.setOption(option_5e0977fb223d4d31ae2ef26e71fe5c40);
+		
+		        chart_5e0977fb223d4d31ae2ef26e71fe5c40.on('click', function (param){
+            var selected = param.name;
+                if (selected) {
+                    switch(selected){
+                        case 'Sarawak':
+                            location.href = "./Sarawak_data.html";
+                            break;
+                        case 'Labuan':
+                            location.href = "./Labuan_data.html";
+                            break;
+                        case 'Sabah':
+                            location.href = "./Sabah_data.html";
+                            break;
+                        case 'Johor':
+                            location.href = "./Johor_data.html";
+                            break;
+                        case 'Malacca':
+                            location.href = "./Malacca_data.html";
+                            break;
+                        case 'Negeri Sembilan':
+                            location.href = "./Sembilan_data.html";
+                            break;
+                        case 'Putrajaya':
+                            location.href = "./Putrajaya_data.html";
+                            break;
+                        case 'Kuala Lumpur':
+                            location.href = "./KualaLumpur_data.html";
+                            break;
+                        case 'Selangor':
+                            location.href = "./Selangor_data.html";
+                            break;
+                        case 'Pahang':
+                            location.href = "./Pahang_data.html";
+                            break;
+                        case 'Terengganu':
+                            location.href = "./Terengganu_data.html";
+                            break;
+                        case 'Kelantan':
+                            location.href = "./Kelantan_data.html";
+                            break;
+                        case 'Perak':
+                            location.href = "./Perak_data.html";
+                            break;
+                        case 'Kedah':
+                            location.href = "./Kedah_data.html";
+                            break;
+                        case 'Perlis':
+                            location.href = "./Perlis_data.html";
+                            break;
+                    
+                        default:
+                            break;
+                    }
+ 
+            }
+      });
+    </script>
+</body>
+</html>

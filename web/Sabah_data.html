@@ -1,0 +1,158 @@
+
+  <html>
+    <head><title>HTML Pandas Dataframe with CSS</title></head>
+    <link rel="stylesheet" type="text/css" href="df_style.css"/>
+    <body>
+      <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>date_announced</th>
+      <th>cluster</th>
+      <th>summary_en</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2021-09-01</td>
+      <td>KLUSTER SAWIT KINABATANGAN 2</td>
+      <td>This cluster is the second recurring cluster involving workers in an oil palm plantation located in Mukim Sukau, Kinabatangan.</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2021-09-15</td>
+      <td>KLUSTER SUNGAI BENDERA</td>
+      <td>This cluster involves workers of an oil palm plantation located near Sungai Bendera, Kinabatangan. The index case for this cluster was a 42-year-old male Indonesian citizen who was reported positive for COVID-19 on 15th September 2021 due to symptomatic individual screening. The case began to develop symptoms on 10th September 2021.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2021-10-21</td>
+      <td>KLUSTER KAMPUNG BATU 66</td>
+      <td>The index case for this cluster is Case No. 2326499, a female Malaysian citizen aged 35 years who reported positive COVID-19 on 9th October 2021 due to symptomatic individual screening. The case began to show symptoms on 6th October 2021. The name of this cluster refers to the locality where the spread of cases was reported to occur, namely in Kampung Batu 66, Beaufort.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2021-10-21</td>
+      <td>KLUSTER KAMPUNG BAWAN</td>
+      <td>This cluster involves staff at a medical centre. The name of the cluster refers to the locality of residence of the index case, which is in Kampung Bawan, Membakut, Beaufort. The index case for this cluster is Case No. 2317408, a male Malaysian citizen aged 31 years old. He reported positive for COVID-19 on 8th October 2021 as a result of symptomatic individual screening. The case began to show symptoms on 4th October 2021.</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2021-10-22</td>
+      <td>KLUSTER ALAB SENAGANG</td>
+      <td>The index case for this cluster is Case No. 2373086, a female Malaysian citizen aged 37 years who reported positive COVID-19 on 15th October 2021 due to symptomatic individual screening. The case began to show symptoms on 12th October 2021. The name of this cluster refers to the locality where the spread of cases was reported to occur, namely in Kampung Alab Senagang, Tenom.</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2021-10-23</td>
+      <td>KLUSTER BLOK 03</td>
+      <td>This cluster involves workers of a farm located in Mukim Sukau, Kinabatangan. The index case for this cluster is Case No. 2416241, a male Malaysian citizen aged 58 years who reported positive for COVID-19 on 22nd October 2021 due to screening at work.</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2021-10-26</td>
+      <td>KLUSTER KIMOLOHING</td>
+      <td>This cluster involves a social event held from 12 to 16th October 2021 in Kampung Kimolohing, Ranau. The index case for this cluster is Case No. 2398881, a male Malaysian citizen aged 36 years who reported positive for COVID-19 on 19th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 17th October 2021.</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2021-11-03</td>
+      <td>KLUSTER TUMBALANG</td>
+      <td>The index case for this cluster is Case No. 2428790, a male Malaysian citizen aged 39 years who reported positive for COVID-19 on 24th October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 19th October 2021. Cluster's name refers to the locality where cases spread occurred, namely in Kampung Tumbalang, Ranau.</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2021-11-03</td>
+      <td>KLUSTER SAWIT JATI</td>
+      <td>This cluster involves workers of a farm located in Mukim Sukau, Kinabatangan. The index case for this cluster is Case No. 2422901, a male Indonesian citizen aged 27 years who reported positive for COVID-19 on 23rd October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 20th October 2021.</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2021-11-07</td>
+      <td>KLUSTER KARANAAN</td>
+      <td>The index case for this cluster is Case No. 2469117, a male Malaysian citizen aged 29 years who reported positive for COVID-19 on 31st October 2021 due to symptomatic individual screening. The case experienced symptoms starting on 27th October 2021. Cluster's name refers to the locality where cases spread occurred, namely in Kampung Karanaan, Ranau.</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2021-11-18</td>
+      <td>KLUSTER KEMBURUNGOH</td>
+      <td>This cluster involves staff and students at an educational centre located in Kampung Kemburungoh, Ranau. The index case for this cluster is Case No. 2524985, a male Malaysian citizen aged 17 years who reported positive for COVID-19 on 11th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 6th November 2021.</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2021-11-19</td>
+      <td>KLUSTER MANTAILANG ATAS</td>
+      <td>This cluster involves students at an educational centre located in Kampung Mantailang Atas, Tenom. The index case for this cluster is Case No. 2547894, a male Malaysian citizen aged 19 years who reported positive for COVID-19 on 15th November 2021 due to symptomatic individual screening. The case experienced symptoms starting on 11th November 2021.</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2021-11-21</td>
+      <td>KLUSTER SAWIT MANIA</td>
+      <td>This cluster involves workers of a farm located in Mukim Sukau, Kinabatangan. Index case for this cluster is Case No. 2583358, male, Malaysian citizen, aged 59 years who reported positive for COVID-19 on 21 November 2021 as a result of symptomatic individual screening. Case became symptomatic on November 12, 2021.</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2021-11-22</td>
+      <td>KLUSTER LAUTAN BIRU PANTAI</td>
+      <td>This cluster involves crews of a ship that sailed from Pangkalan TLDM Lumut to Pangkalan TLDM Sepanggar, Sandakan and Tawau on 28th October 2021. The index case for this cluster is Case No. 2524591, a male Malaysian citizen aged 34 years reported positive for COVID-19 on 11th November 2021 due to symptomatic individual screening. The case became symptomatic starting on 7th October 2021.</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2021-11-25</td>
+      <td>KLUSTER SAWIT BIRU</td>
+      <td>This cluster was reported involving factory workers located at Mukim Sukau, Kinabatangan. The case index in this cluster was Case No. 2604657, 41 years old Philipino woman, who reported COVID-19 positive on 25th November 2021 during symptomatic screening. The case became symptomatic on 19th November 2021.</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2021-12-01</td>
+      <td>KLUSTER SUNGAI BATANG</td>
+      <td>This cluster involves students at an educational center located at Jalan Sungai Batang, Sandakan. The index case for this cluster is Case No. 2538317, male, Malaysian aged 19 years who reported positive for COVID-19 on 13 November 2021 as a result of symptomatic individual screening. The case became symptomatic on November 12, 2021.</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2021-12-08</td>
+      <td>KLUSTER JALAN TUARAN BAKUT</td>
+      <td>This cluster involves the students of an educational center located in Kampung Bakut, Tuaran. The index case for this cluster was a female, 20 years old Malaysian citizen, who was reported positive for COVID-19 on 27th November 2021 as a result of symptomatic individual screening. The case became symptomatic on 23rd November 2021.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2021-12-09</td>
+      <td>KLUSTER DEBUT TIMBUA</td>
+      <td>This cluster involves staff and students at an educational centre located at Jalan Kampung Timbua, Ranau. The index case for this cluster are two Malaysian male who reported positive for COVID-19 on 6th Disember 2021 as a result of symptomatic individuals screening. Both case became symptomatic on 2nd Disember 2021.</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2021-12-14</td>
+      <td>KLUSTER PUNCAK ILMU</td>
+      <td>This cluster involves students at an educational centre located at Jalan Perdana Puncak Ilmu, Kota Kinabalu. The index case for this cluster are a 22 years old Malaysian male who reported positive for COVID-19 on 5th Disember 2021 as a result of symptomatic individuals screening. The case became symptomatic on 1st Disember 2021.</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2021-12-15</td>
+      <td>KLUSTER JALAN LABUK BATU TUJUH</td>
+      <td>This cluster involves staff at a public administration center located at Jalan Labuk Batu 7, Sandakan. The index case for this cluster was a male, 36 years old, Malaysian citizen who reported positive COVID-19 on 10th December 2021 as a result of symptomatic individual screening. The case became symptomatic on 9th December 2021.</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2021-12-22</td>
+      <td>KLUSTER MILLENIUM SAUDI</td>
+      <td>The index case for this cluster was a 40-years-old male, Malaysian citizen from Taman Millenium, Sandakan, who reported positive for COVID-19 on 21st December 2021 as a result of international gateway arrival screening. Case became symptomatic on 10th Dicember 2021. Case has history of travelling to Saudi Arabia from 4th December 2021 until 15th December 2021.</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2021-12-25</td>
+      <td>KLUSTER BAHTERA KINABALU</td>
+      <td>This cluster involved employees of oil ship located at Perairan Sabah, Kota Kinabalu. The index case for this cluster is a 26 years old Malaysian male who was reported positive for COVID-19 on 20th December 2021 as a result of symptomatic individual screening. The case became symptomatic on 12th December 2021.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2022-01-03</td>
+      <td>KLUSTER JALAN KEM BINA</td>
+      <td>This cluster involves the staff of a hotel located at Jalan Kem Bina, Ranau. The index case for this cluster was a 60-year-old male employee, Malaysian citizen who was reported positive for COVID-19 on 23rd December 2021 as a result of symptomatic individual screening. The case became symptomatic on 20th December 2021.</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+  </html>.
+  
